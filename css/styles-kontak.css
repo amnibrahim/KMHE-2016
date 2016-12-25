@@ -1,0 +1,109 @@
+/*==== section one ====*/
+
+.section-one {
+    position: relative;
+    overflow: hidden;
+    background-image: url(../img/icons/cubes.png);
+    background-position: center;
+    background-repeat: repeat;
+    margin-top: 50px;
+}
+.section-one .judul-text {
+    display: block;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600;
+    color: rgb(35, 52, 78);
+    margin: 100px 0 50px;
+    font-family: 'DINMedium', Fallback, sans-serif;
+}
+
+.section-one .row{
+    width: 90%;
+    margin: 0 auto 100px;
+}
+
+.section-one .col-sm-6 .kontak-box{
+    position: relative;
+    height: 600px;
+    width: 90%;
+    margin: 30px auto;
+    background-color: rgba(218, 218, 218, 1);
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.section-one .col-sm-6 .kontak-box .kontak-content{
+    position: relative;
+    width: 80%;
+    height: 90%;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+            transform: translate(-50%,-50%);
+}
+.section-one .col-sm-6 .kontak-box .kotak-content-center{
+    text-align: center;
+    height: 80%;
+}
+
+.section-one .col-sm-6 .kontak-box .kontak-content img{
+    width: 50px;
+}
+.section-one .col-sm-6 .kontak-box .kontak-content img.social-media-img{
+    width: 30px;
+}
+
+.section-one .col-sm-6 .kontak-box .kontak-content span.kontak-title{
+    font-size: 18px;
+    color: rgba(35, 53, 77, 1);
+    font-family: 'DINMedium', Fallback, sans-serif;
+}
+
+.kontak-text{
+    font-size: 16px;
+    font-family: 'DINMedium', Fallback, sans-serif;
+    color: rgba(35, 53, 77, 1);
+}
+.kontak-number{
+    font-size: 16px;
+    font-family: 'DINLight', Fallback, sans-serif;
+    color: rgba(35, 53, 77, 1);
+}
+
+hr{
+    height: 3px;
+    background-color: white;
+}
+
+/*=======================*/
+
+@media (max-width: 991px){
+    /*--- navbar ---*/
+    .navbar ul.main-menu li{
+        width: auto;
+    }
+    /*-- section one --*/
+    .section-one .col-sm-6 .kontak-box{
+        width: 100%;
+        height: 650px;
+    }
+}
+@media (max-width: 767px) {
+    /*-- section one --*/
+    .section-one .row{
+        width: 100%;
+    }
+    .section-one .col-sm-6 .kontak-box{
+        width: 100%;
+        height: 600px;
+    }
+    .kontak-text{
+        font-size: 14px;
+    }
+    .kontak-number{
+        font-size: 14px;
+    }
+}

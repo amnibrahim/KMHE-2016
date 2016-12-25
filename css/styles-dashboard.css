@@ -1,0 +1,238 @@
+/*==== section one ====*/
+
+.section-one {
+    position: relative;
+    overflow: hidden;
+    background-image: url(../img/icons/cubes.png);
+    background-position: center;
+    background-repeat: repeat;
+    padding-top: 200px;
+}
+
+.section-one .rowtext{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.section-one .col-md-2{
+    width: auto;
+    max-width: 150px;
+    border: 3px solid rgb(35, 53, 77);
+    border-radius: 3px;
+}
+.section-one .col-md-2 .dashboard-text{
+    display: block;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(35, 53, 77);
+    margin: 10px auto;
+    font-family: 'DINMedium', Fallback, sans-serif;
+}
+
+.section-one .dashboard-nama-tim{
+    display: block;
+    text-align: left;
+    font-size: 20px;
+    color: rgb(35, 53, 77);
+    margin: 13px auto;
+    margin-left: 50px;
+    font-family: 'DINMedium', Fallback, sans-serif;
+}
+
+.section-one .rowpanel{
+    width: 90%;
+    margin: 50px auto 150px;
+    background-image: url(../img/icons/cubes.png);
+    background-position: center;
+    background-repeat: repeat;
+}
+
+.section-one .panel{
+    margin-top: 50px 0;
+    background-image: url(../img/icons/cubes.png);
+    background-position: center;
+    background-repeat: repeat;
+}
+
+.section-one .panel ul{
+    margin: 0;
+    background-image: url(../img/icons/cubes.png);
+    background-position: center;
+    background-repeat: repeat;
+}
+
+.section-one .panel li{
+    margin-top: 7px;
+    min-width: 140px;
+}
+
+.section-one .panel li a{
+    display: block;
+    text-align: center;
+    font-size: 12px;
+    background-color: rgb(35, 53, 77);
+    color: white;
+    margin-right: 7px;
+    box-shadow: 0px 0px 0px 2px rgb(35, 53, 77);
+    -webkit-transition: 0.2s ease-in-out;
+    -moz-transition: 0.2s ease-in-out;
+    -ms-transition: 0.2s ease-in-out;
+    transition: 0.2s ease-in-out;
+    font-family: 'DINRegular', Fallback, sans-serif;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
+    background-color: white;
+    color: rgb(35, 53, 77);
+    box-shadow: 0px 0px 0px 2px rgba(218, 218, 218, 1);
+}
+
+.section-one .panel .tab-content{
+    margin: -1px 0px 0px -4px;;
+    padding: 10px 5px;
+    border-radius: 10px;
+    background-color: rgba(218, 218, 218, 1);
+}
+
+.section-one .panel .tab-content .container-fluid{
+    padding: 0px 40px;
+}
+.section-one .panel .tab-content .rowcontent{
+    margin: 40px auto;
+}
+.section-one .panel .tab-content .rowcontent .col-md-3, .rowcontent .col-md-12{
+    padding: 5px;
+    height: auto;
+}
+.section-one .panel .tab-content .rowcontent .surat-text{
+    display: block;
+    text-align: left;
+    font-size: 16px;
+    color: rgb(35, 53, 77);
+    margin: 25px auto 0px;
+    font-family: 'DINRegular', Fallback, sans-serif;
+    font-weight: 600;
+}
+.section-one .panel .tab-content .rowcontent .periode-text{
+    display: block;
+    text-align: left;
+    font-size: 14px;
+    color: rgb(35, 53, 77);
+    font-family: 'DINMedium', Fallback, sans-serif;
+    font-style: italic;
+}
+
+.section-one .panel .tab-content .rowcontent .pilih-file{
+    overflow: hidden;
+    position: relative;
+    display: block;
+    text-align: center;
+    width: 110px;
+    background-color: white;
+    margin: 20px auto 10px;
+    border-radius: 8px;
+    padding: 3px 18px;
+    border-color: transparent;
+    font-size: 14px;
+    font-family: 'DINMedium', Fallback, sans-serif;
+    color: rgb(35, 53, 77);
+    cursor: pointer;
+}
+
+.section-one .panel .tab-content .rowcontent .block{
+    cursor: not-allowed;
+}
+
+.section-one .panel .tab-content .rowcontent .pilih-file input{
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    margin: 0;
+    z-index: -1;
+}
+.section-one .panel .tab-content .rowcontent .pilih-file-text{
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    font-family: 'DINMedium', Fallback, sans-serif;
+    color: rgb(35, 53, 77);
+    height: auto;
+    white-space: pre-wrap;
+}
+
+.section-one .panel .tab-content .upload-box{
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+    padding: 10px 20px;
+    border-radius: 8px;
+    background-color: rgb(35, 53, 77);
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+.section-one .panel .tab-content  .upload-box img{
+    width: 25px;
+}
+.section-one .panel .tab-content .upload-box span{
+    margin-left: 5px;
+    color: white;
+    font-size: 14px;
+    font-family: 'DINRegular', Fallback, sans-serif;
+}
+.section-one .panel .tab-content .rowcontent .status-text{
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    color: rgb(35, 53, 77);
+    margin: 35px auto;
+    font-family: 'DINRegular', Fallback, sans-serif;
+    font-weight: 600;
+}
+
+.section-one .panel .tab-content .rowcontent .col-md-12{
+    margin: 50px auto 0;
+}
+
+.section-one .panel .tab-content .rowcontent .col-md-12 p{
+    font-size: 16px;
+    color: rgb(35, 53, 77);
+    font-family: 'DINRegular', Fallback, sans-serif;
+    margin: 0;
+}
+
+div .alert.alert-info{
+    padding: 0;
+    background-color: transparent;
+    color: rgb(35, 53, 77);
+    border-color: transparent;
+}
+
+/*=======================*/
+
+@media (max-width: 991px){
+
+    /*--- navbar ---*/
+    .navbar ul.main-menu li{
+        width: auto;
+    }
+
+    /*--- section-one ---*/
+    .section-one .dashboard-nama-tim{
+        margin-left: 0;
+    }
+    .section-one .panel .tab-content .rowcontent .surat-text, .section-one .panel .tab-content .rowcontent .periode-text{
+        text-align: center;
+    }
+}
+
+@media (max-width: 767px){
+
+    /*--- section-one ---*/
+    .section-one .panel li{
+        width: 100%;
+    }
+    .section-one .panel .tab-content .container-fluid{
+        padding: 10px;
+    }
+}

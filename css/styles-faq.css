@@ -1,0 +1,72 @@
+/*==== section one ====*/
+
+.section-one {
+    position: relative;
+    overflow: hidden;
+    background-image: url(../img/icons/cubes.png);
+    background-position: center;
+    background-repeat: repeat;
+}
+
+.section-one .faq-title {
+    display: block;
+    text-align: center;
+    margin-top: 150px;
+    font-size: 22px;
+    font-weight: 600;
+    color: rgb(35, 52, 78);
+    font-family: 'DINMedium', Fallback, sans-serif;
+}
+
+.section-one .row{
+    position: relative;
+    width: 75%;
+    margin: 0 auto 100px;
+}
+
+.section-one .big-faq-text{
+    font-size: 16px;
+    font-family: 'DINBold', Fallback, sans-serif;
+    margin-left: -18px;
+    text-align: left;
+    color: rgba(35, 53, 77, 1);
+}
+
+.section-one .small-faq-text{
+    font-size: 16px;
+    font-family: 'DINRegular', Fallback, sans-serif;
+    text-align: left;
+    color: rgba(35, 53, 77, 1);
+}
+
+/*=======================*/
+
+@media (max-width: 1050px){
+    /*--- navbar ---*/
+    .navbar ul.main-menu li{
+        width: auto;
+    }
+    .nav>li>a{
+        padding: 15px 10px;
+    }
+}
+@media (max-width: 991px){
+    /*--- navbar ---*/
+    .navbar ul.main-menu li{
+        width: auto;
+    }
+}
+@media (max-width:767px) {
+    /*--- section-one ---*/
+    .section-one .row{
+        width: 90%;
+    }
+    .section-one .big-faq-text{
+        font-size: 12px;
+        margin-left: -14px;
+    }
+
+    .section-one .small-faq-text{
+        font-size: 12px;
+    }
+}

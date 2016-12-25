@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KMHE 2016</title>
+  <link rel="shortcut icon" type="image/x-icon" href="../img/icons/1465712970.ico">
+  <link rel="stylesheet" type="text/css" href="../css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="../css/templateStyles.css">
+  <link rel="stylesheet" type="text/css" href="../css/styles-form.css">
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar transparent navbar-inverse navbar-fixed-top">
+    <div class="navbar-inner">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="menu">
+            
+          <ul class="nav navbar-nav navbar-left logo-menu">
+              <li>
+                <a href="#"><img src="../img/icons/LogoKMHE2016_197x45.png" alt="Brand"></a> 
+              </li>
+          </ul>
+            
+          <ul class="nav navbar-nav navbar-right login-menu">
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">LOG IN <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="loginpage.html">LOG IN</a></li>  
+                <li><a href="#">DAFTAR</a></li>  
+                <li><a href="dashboard.html">DASHBOARD</a></li>  
+                <li><a href="index.html">LOG OUT</a></li>  
+              </ul>
+            </li>  
+          </ul>
+            
+          <ul class="nav navbar-nav navbar-right main-menu">
+            <li><a class="button-active" href="index.html">HOME</a></li>
+            <li><a href="profil.html">PROFIL</a></li>
+            <li><a href="kompetisi.html">KOMPETISI</a></li>
+            <li><a href="peserta.html">PESERTA</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="kontak.html">HUBUNGI KAMI</a></li>
+          </ul>
+            
+        </div><!-- /.navbar-collapse -->
+          
+      </div><!-- /.container-fluid -->
+    </div><!-- /.navbar-inner -->
+  </nav>
+
+  <!-- SECTION ONE -->
+  <div class="section-one">
+    
+    <div class="pendaftaran-box">
+        <span class="pendaftaran-text">PENDAFTARAN</span>
+    </div>
+      
+    <div class="container-fluid">
+        
+      <div class="row">
+
+        <div class="col-sm-offset-3 col-sm-6">
+            
+          <!-- AKUN -->    
+          <span class="form-title">AKUN</span>
+
+          <form class="form-horizontal">
+              
+            <div class="form-group">
+              <label for="akun-username" class="col-md-3 control-label">USERNAME</label>
+              <div class="col-md-9">
+                <input type="text" class="form-control" id="akun-username" placeholder="Username">
+              </div>
+            </div>
+              
+            <div class="form-group">
+              <label for="akun-password" class="col-md-3 control-label">PASSWORD</label>
+              <div class="col-md-9">
+                <input type="password" class="form-control" id="akun-password" placeholder="1234567890">
+              </div>
+            </div>
+              
+            <div class="form-group">
+              <label for="akun-email" class="col-md-3 control-label">EMAIL</label>
+              <div class="col-md-9">
+                <input type="email" class="form-control" id="akun-email" placeholder="Email">
+              </div>
+            </div>
+              
+          </form>
+            
+            
+          <!-- KENDARAAN -->   
+          <span class="form-title">KENDARAAN</span>
+
+          <form class="form-horizontal">
+              
+            <div class="form-group">
+              <label for="kendaraan-nama-team" class="col-md-3 control-label">NAMA TEAM</label>
+              <div class="col-md-9">
+                <input type="text" class="form-control" id="kendaraan-nama-team" placeholder="Nama Lengkap">
+              </div>
+            </div> 
+              
+            <div class="form-group">
+              <label for="kendaraan-nama-kendaraan" class="col-md-3 control-label">NAMA KENDARAAN</label>
+              <div class="col-md-9">
+                <input type="text" class="form-control" id="kendaraan-nama-kendaraan" placeholder="Nama Mobil">
+              </div>
+            </div>
+               
+            <div class="form-group">
+              <label for="kendaraan-kategori" class="col-md-3 control-label">KATEGORI</label>
+              <div class="col-md-9">
+                <input type="text" class="form-control" id="kendaraan-kategori" placeholder="Pilih (Urban/Proto)">
+              </div>
+            </div>
+               
+            <div class="form-group">
+              <label for="kendaraan-ke;as" class="col-md-3 control-label">KELAS</label>
+              <div class="col-md-9">
+                <input type="text" class="form-control" id="kendaraan-kelas" placeholder="Pilih Bensin/Diesel/Etanol/Listrik">
+              </div>
+            </div>
+              
+            <div class="form-group">
+              <label for="kendaraan-perguruan-tinggi" class="col-md-3 control-label">PERGURUAN TINGGI</label>
+              <div class="col-md-9">
+                <input type="text" class="form-control" id="kendaraan-perguruan-tinggi" placeholder="Perguruan Tinggi">
+              </div>
+            </div>
+              
+            <div class="form-group">
+              <label for="kendaraan-alamat-perguruan-tinggi" class="col-md-3 control-label">ALAMAT PERGURUAN TINGGI</label>
+              <div class="col-md-9">
+                <textarea class="form-control" rows="3" placeholder="Alamat Perguruan Tinggi"></textarea>
+              </div>
+            </div>
+              
+          </form>
+            
+            
+          <!-- DOSEN PEMBIMBING -->   
+          <span class="form-title">DOSEN PEMBINBNG</span>
+
+          <form class="form-horizontal">
+              
+            <div class="form-group">
+              <label for="dosen-nama-lengkap" class="col-md-3 control-label">NAMA LENGKAP</label>
+              <div class="col-md-9">
+                <input type="text" class="form-control" id="dosen-nama-lengkap" placeholder="Nama Lengkap">
+              </div>
+            </div>
+              
+            <div class="form-group">
+              <label for="dosen-nip" class="col-md-3 control-label">NIP</label>
+              <div class="col-md-9">
+                <input type="text" class="form-control" id="dosen-nip" placeholder="1234567890">
+              </div>
+            </div>
+              
+            <div class="form-group">
+              <label for="dosen-ttl" class="col-md-3 control-label">TEMPAT/TANGGAL LAHIR</label>
+              <div class="col-md-9">
+                <input type="text" class="form-control" id="dosen-ttl" placeholder="Yogyakarta, 30/08/1997">
+              </div>
+            </div>
+              
+            <div class="form-group">
+              <label for="dosen-jenis-kelamin" class="col-md-3 control-label">JENIS KELAMIN</label>
+              <div class="col-md-9">
+                <input type="text" class="form-control" id="dosen-jenis-kelamin" placeholder="Laki-Laki">
+              </div>
+            </div>
+              
+            <div class="form-group">
+              <label for="dosen-bidang-keahlian" class="col-md-3 control-label">BIDANG KEAHLIAN</label>
+              <div class="col-md-9">
+                <input type="text" class="form-control" id="dosen-bidang-keahlian" placeholder="Bidang Keahlian">
+              </div>
+            </div>
+              
+          </form> 
+            
+            
+          <!-- MANAGER TIM  -->   
+          <span class="form-title">MANAGER TIM</span>
+
+          <form class="form-horizontal">
+              
+            <div class="form-group">
+              <label for="manager-nama-lengkap" class="col-md-3 control-label">NAMA LENGKAP</label>
+              <div class="col-md-9">
+                <input type="text" class="form-control" id="manager-nama-lengkap" placeholder="Nama Lengkap">
+              </div>
+            </div>
+              
+            <div class="form-group">
+              <label for="manager-nim" class="col-md-3 control-label">NIM</label>
+              <div class="col-md-9">
+                <input type="text" class="form-control" id="manager-nim" placeholder="1234567890">
+              </div>
+            </div>
+              
+            <div class="form-group">
+              <label for="manager-ttl" class="col-md-3 control-label">TEMPAT/TANGGAL LAHIR</label>
+              <div class="col-md-9">
+                <input type="text" class="form-control" id="manager-ttl" placeholder="Yogyakarta, 30/8/1997">
+              </div>
+            </div>
+              
+            <div class="form-group">
+              <label for="manager-no-telfon" class="col-md-3 control-label">NO. TELFON</label>
+              <div class="col-md-9">
+                <input type="text" class="form-control" id="manager-no-telfon" placeholder="081122334455">
+              </div>
+            </div>
+              
+            <div class="form-group">
+              <label for="manager-alamat-perguruan-tinggi" class="col-md-3 control-label">ALAMAT PERGURUAN TINGGI</label>
+              <div class="col-md-9">
+                <textarea class="form-control" rows="3" placeholder="Alamat Manager Tim"></textarea>
+              </div>
+            </div>
+                
+          </form> 
+            
+            
+          <!-- ANGGOTA TIM (1) -->   
+          <span class="form-title">ANGGOTA TIM (1)</span>
+
+          <form class="form-horizontal">
+              
+            <div class="form-group">
+              <label for="anggota1-nama-lengkap" class="col-md-3 control-label">NAMA LENGKAP</label>
+              <div class="col-md-9">
+                <input type="text" class="form-control" id="anggota1-nama-lengkap" placeholder="Nama Lengkap">
+              </div>
+            </div>
+              
+            <div class="form-group">
+              <label for="anggota1-nim" class="col-md-3 control-label">NIM</label>
+              <div class="col-md-9">
+                <input type="text" class="form-control" id="anggota1-nim" placeholder="1234567890">
+              </div>
+            </div>
+              
+            <div class="form-group">
+              <label for="anggota1-ttl" class="col-md-3 control-label">TEMPAT/TANGGAL LAHIR</label>
+              <div class="col-md-9">
+                <input type="text" class="form-control" id="anggota1-ttl" placeholder="Yogyakarta, 30/8/1997">
+              </div>
+            </div>
+              
+            <div class="form-group">
+              <label for="anggota1-no-telfon" class="col-md-3 control-label">NO. TELFON</label>
+              <div class="col-md-9">
+                <input type="text" class="form-control" id="anggota1-no-telfon" placeholder="081122334455">
+              </div>
+            </div>
+              
+            <div class="form-group">
+              <label for="anggota1-alamat-perguruan-tinggi" class="col-md-3 control-label">ALAMAT PERGURUAN TINGGI</label>
+              <div class="col-md-9">
+                <textarea class="form-control" rows="3" placeholder="Alamat Anggota Tim"></textarea>
+              </div>
+            </div>
+              
+          </form> 
+            
+            
+          <!-- ANGGOTA TIM (2) -->   
+          <span class="form-title">ANGGOTA TIM (2)</span>
+
+          <form class="form-horizontal">
+              
+            <div class="form-group">
+              <label for="anggota2-nama-lengkap" class="col-md-3 control-label">NAMA LENGKAP</label>
+              <div class="col-md-9">
+                <input type="text" class="form-control" id="anggota2-nama-lengkap" placeholder="Nama Lengkap">
+              </div>
+            </div>
+              
+            <div class="form-group">
+              <label for="anggota2-nim" class="col-md-3 control-label">NIM</label>
+              <div class="col-md-9">
+                <input type="text" class="form-control" id="anggota2-nim" placeholder="1234567890">
+              </div>
+            </div>
+              
+            <div class="form-group">
+              <label for="anggota2-ttl" class="col-md-3 control-label">TEMPAT/TANGGAL LAHIR</label>
+              <div class="col-md-9">
+                <input type="text" class="form-control" id="anggota2-ttl" placeholder="Yogyakarta, 30/8/1997">
+              </div>
+            </div>
+              
+            <div class="form-group">
+              <label for="anggota2-no-telfon" class="col-md-3 control-label">NO. TELFON</label>
+              <div class="col-md-9">
+                <input type="text" class="form-control" id="anggota2-no-telfon" placeholder="081122334455">
+              </div>
+            </div>
+              
+            <div class="form-group">
+              <label for="anggota2-alamat-perguruan-tinggi" class="col-md-3 control-label">ALAMAT PERGURUAN TINGGI</label>
+              <div class="col-md-9">
+                <textarea class="form-control" rows="3" placeholder="Alamat Anggota Tim"></textarea>
+              </div>
+            </div>
+              
+          </form> 
+            
+            
+          <!-- ANGGOTA TIM (3) -->   
+          <span class="form-title">ANGGOTA TIM (3)</span>
+
+          <form class="form-horizontal">
+              
+            <div class="form-group">
+              <label for="anggota3-nama-lengkap" class="col-md-3 control-label">NAMA LENGKAP</label>
+              <div class="col-md-9">
+                <input type="text" class="form-control" id="anggota3-nama-lengkap" placeholder="Nama Lengkap">
+              </div>
+            </div>
+              
+            <div class="form-group">
+              <label for="anggota3-nim" class="col-md-3 control-label">NIM</label>
+              <div class="col-md-9">
+                <input type="text" class="form-control" id="anggota3-nim" placeholder="1234567890">
+              </div>
+            </div>
+              
+            <div class="form-group">
+              <label for="anggota3-ttl" class="col-md-3 control-label">TEMPAT/TANGGAL LAHIR</label>
+              <div class="col-md-9">
+                <input type="text" class="form-control" id="anggota3-ttl" placeholder="Yogyakarta, 30/8/1997">
+              </div>
+            </div>
+              
+            <div class="form-group">
+              <label for="anggota3-no-telfon" class="col-md-3 control-label">NO. TELFON</label>
+              <div class="col-md-9">
+                <input type="text" class="form-control" id="anggota3-no-telfon" placeholder="081122334455">
+              </div>
+            </div>
+              
+            <div class="form-group">
+              <label for="anggota3-alamat-perguruan-tinggi" class="col-md-3 control-label">ALAMAT PERGURUAN TINGGI</label>
+              <div class="col-md-9">
+                <textarea class="form-control" rows="3" placeholder="Alamat Anggota Tim"></textarea>
+              </div>
+            </div>
+              
+          </form> 
+            
+            
+          <!-- ANGGOTA TIM (4) -->   
+          <span class="form-title">ANGGOTA TIM (4)</span>
+
+          <form class="form-horizontal">
+              
+            <div class="form-group">
+              <label for="anggota4-nama-lengkap" class="col-md-3 control-label">NAMA LENGKAP</label>
+              <div class="col-md-9">
+                <input type="text" class="form-control" id="anggota4-nama-lengkap" placeholder="Nama Lengkap">
+              </div>
+            </div>
+              
+            <div class="form-group">
+              <label for="anggota4-nim" class="col-md-3 control-label">NIM</label>
+              <div class="col-md-9">
+                <input type="text" class="form-control" id="anggota4-nim" placeholder="1234567890">
+              </div>
+            </div>
+              
+            <div class="form-group">
+              <label for="anggota4-ttl" class="col-md-3 control-label">TEMPAT/TANGGAL LAHIR</label>
+              <div class="col-md-9">
+                <input type="text" class="form-control" id="anggota4-ttl" placeholder="Yogyakarta, 30/8/1997">
+              </div>
+            </div>
+              
+            <div class="form-group">
+              <label for="anggota4-no-telfon" class="col-md-3 control-label">NO. TELFON</label>
+              <div class="col-md-9">
+                <input type="text" class="form-control" id="anggota4-no-telfon" placeholder="081122334455">
+              </div>
+            </div>
+              
+            <div class="form-group">
+              <label for="anggota4-alamat-perguruan-tinggi" class="col-md-3 control-label">ALAMAT PERGURUAN TINGGI</label>
+              <div class="col-md-9">
+                <textarea class="form-control" rows="3" placeholder="Alamat Anggota Tim"></textarea>
+              </div>
+            </div>
+              
+          </form>   
+            
+            
+          <!-- PENGEMUDI UTAMA -->   
+          <span class="form-title">PENGEMUDI UTAMA</span>
+
+          <form class="form-horizontal">
+              
+            <div class="form-group">
+              <label for="utama-nama-lengkap" class="col-md-3 control-label">NAMA LENGKAP</label>
+              <div class="col-md-9">
+                <input type="text" class="form-control" id="utama-nama-lengkap" placeholder="Nama Lengkap">
+              </div>
+            </div>
+              
+            <div class="form-group">
+              <label for="utama-nim" class="col-md-3 control-label">NIM</label>
+              <div class="col-md-9">
+                <input type="text" class="form-control" id="utama-nim" placeholder="1234567890">
+              </div>
+            </div>
+              
+            <div class="form-group">
+              <label for="utama-ttl" class="col-md-3 control-label">TEMPAT/TANGGAL LAHIR</label>
+              <div class="col-md-9">
+                <input type="text" class="form-control" id="utama-ttl" placeholder="Yogyakarta, 30/8/1997">
+              </div>
+            </div>
+              
+            <div class="form-group">
+              <label for="utama-no-telfon" class="col-md-3 control-label">NO. TELFON</label>
+              <div class="col-md-9">
+                <input type="text" class="form-control" id="utama-no-telfon" placeholder="081122334455">
+              </div>
+            </div>
+              
+            <div class="form-group">
+              <label for="utama-alamat-perguruan-tinggi" class="col-md-3 control-label">ALAMAT PERGURUAN TINGGI</label>
+              <div class="col-md-9">
+                <textarea class="form-control" rows="3" placeholder="Alamat Pengemudi Utama"></textarea>
+              </div>
+            </div>
+              
+          </form> 
+            
+          <!-- PENGEMUDI CADANGAN -->   
+          <span class="form-title">PENGEMUDI CADANGAN</span>
+
+          <form class="form-horizontal">
+              
+            <div class="form-group">
+              <label for="cadangan-nama-lengkap" class="col-md-3 control-label">NAMA LENGKAP</label>
+              <div class="col-md-9">
+                <input type="text" class="form-control" id="cadangan-nama-lengkap" placeholder="Nama Lengkap">
+              </div>
+            </div>
+              
+            <div class="form-group">
+              <label for="cadangan-nim" class="col-md-3 control-label">NIM</label>
+              <div class="col-md-9">
+                <input type="text" class="form-control" id="cadangan-nim" placeholder="1234567890">
+              </div>
+            </div>
+              
+            <div class="form-group">
+              <label for="cadangan-ttl" class="col-md-3 control-label">TEMPAT/TANGGAL LAHIR</label>
+              <div class="col-md-9">
+                <input type="text" class="form-control" id="cadangan-ttl" placeholder="Yogyakarta, 30/8/1997">
+              </div>
+            </div>
+              
+            <div class="form-group">
+              <label for="cadangan-no-telfon" class="col-md-3 control-label">NO. TELFON</label>
+              <div class="col-md-9">
+                <input type="text" class="form-control" id="cadangan-no-telfon" placeholder="081122334455">
+              </div>
+            </div>
+              
+            <div class="form-group">
+              <label for="cadangan-alamat-perguruan-tinggi" class="col-md-3 control-label">ALAMAT PERGURUAN TINGGI</label>
+              <div class="col-md-9">
+                <textarea class="form-control" rows="3" placeholder="Alamat Pengemudi Cadangan"></textarea>
+              </div>
+            </div>
+              
+          </form>     
+            
+        </div>
+
+      </div>
+        
+    </div>  
+      
+    <button type="submit" class="btn btn-success">SUBMIT</button>
+
+    <span class="agreement">Dengan mengklik submit, peserta menyatakan bahwa peserta menyetujui dan akan <br> mengikuti peraturan teknis maupun non teknis KMHE 2016</span>
+      
+    <span class="notes">Pastikan bahwa semua informasi yang anda input adalah benar sebelum memilih 'Submit'<br>Mohon untuk tidak melakukan registrasi lebih dari satu kali untuk satu tim</span>
+      
+  </div>    
+    
+  <!-- SECTION THREE -->
+  <div class="section-three">
+    <img src="../img/icons/logo-ugm.png" alt="ugm-logo">
+    <img src="../img/icons/logo-risetdikti.png" alt="risetdikti-logo">
+
+    <span class="copyright-text"><span class="glyphicon glyphicon-copyright-mark"></span>
+    2016 KMHE 2016 - Universitas Gadjah Mada</span>
+  </div>
+
+  <!-- back to top button -->
+    <a href=# class="back-to-top">
+      <span class="glyphicon glyphicon-triangle-top"></span>
+      <span class="back-to-top-text"> BACK TO TOP</span>
+    </a>
+  <!--  <div class="cek"></div> -->
+    
+  <script src="../jquery/jquery-1.11.3.min.js"></script>
+  <script src="../bootstrap/js/bootstrap.min.js"></script>
+  <script src="../js/functions.js"></script>
+
+</html>

@@ -1,0 +1,200 @@
+/*==== section one ====*/
+
+.section-one {
+    position: relative;
+    overflow: hidden;
+    height: auto;
+}
+
+.carousel{
+    position: relative;
+}
+
+.carousel-inner .item {
+    text-align: center;
+}
+
+.carousel-indicators li {
+    display: inline-block;
+    margin: 10px;
+    border: none;
+    background-color: white;
+    box-shadow: inset 0px 0px 1px 1px rgba(0,0,0,0.5);
+}
+.carousel-indicators .active {
+    margin: 10px;
+    background-color: white;
+}
+/*
+.slide-1{
+    position: relative;
+    background-image: url(../img/backgroundSlide6.png);
+    background-size: cover;
+    height: 780px;
+}
+
+.slide-1 .item-box{
+    position: relative;
+    width: 70%;
+    top: 45%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+            transform: translate(-50%,-50%);
+    text-align: left;
+}
+
+.slide-1 .item-box img {
+    display: inline-block!important;
+    width: 400px;
+}
+
+.slide-1 .item-box .comingsoon-text {
+    display: block;
+    text-align: center;
+    font-size: 24px;
+    color: black;
+    font-family: 'DINMedium', Fallback, sans-serif;
+    text-shadow: 0px 0px 20px white;
+}
+*/
+.slide-2{
+    position: relative;
+    background-image: url(../img/BackgroundSlideFinal.jpg);
+    background-size: cover;
+    height: 780px;
+}
+
+.slide-2 .item-box{
+    position: relative;
+    width: 100%;
+    padding: 10px;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+            transform: translate(-50%,-50%);
+    color: white;
+}
+
+.slide-2 .item-box .underline{
+    height: 50px;
+    background-image: url(../img/icons/slide2-underline_wide.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.logo-edge{
+    position: absolute;
+    width: 120px;
+    top: 90px;
+    right: 20px;
+}
+
+
+.item-box span.big-text{
+    font-size: 60px;
+    font-family: 'DINBold', Fallback, sans-serif;
+    letter-spacing: 3px;
+}
+.item-box span.small-text{
+    font-size: 18px;
+    font-family: 'DINLight', Fallback, sans-serif;
+    letter-spacing: 1px;
+}
+.item-box span.middle-text{
+    font-size: 18px;
+    font-family: 'DINBold', Fallback, sans-serif;
+    letter-spacing: 1px;
+}
+/*
+.slide-3{
+    position: relative;
+    background-image: url(img/BackgroundSlide5.png);
+    background-size: cover;
+    height: 780px;
+}
+
+.slide-3 .item-box{
+    position: relative;
+    width: 80%;
+    padding: 10px;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+            transform: translate(-50%,-50%);
+    text-align: left;
+}
+*/
+/*=======================*/
+
+@media (max-width: 991px){
+    /*--- navbar ---*/
+    .navbar ul.main-menu li{
+        width: auto;
+    }
+    /*--- section one ---*/
+    .slide-2 .item-box .underline{
+        background-image: url(img/icons/slide2-underline_mid.png);
+    }
+    .slide-3 .item-box{
+        width: 90%;
+    }
+}
+@media (max-width: 767px) {
+    /*--- navbar ---*/
+    .navbar ul.login-menu {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    /*--- section one ---*/
+    .logo-edge{
+        width: 60px;
+        top: 60px;
+        right: 10px;
+    }
+    .item-box span.big-text{
+        font-size: 36px;
+    }
+    .item-box span.small-text{
+        font-size: 14px;
+    }
+    .item-box span.middle-text{
+        font-size: 14px;
+    }
+
+    .slide-1{
+        height: 570px;
+    }
+    .slide-1 .item-box{
+        width: 100%;
+    }
+    .slide-1 .item-box img {
+        width: 250px;
+    }
+
+    .slide-2{
+        height: 570px;
+    }
+    .slide-2 .item-box{
+        width: 100%;
+    }
+
+    .slide-3{
+        height: 570px;
+    }
+    .slide-3 .item-box{
+        width: 100%;
+        text-align: left;
+        font-size: 12px;
+    }
+    /*current use only*/
+    .slide-3 .big-text{
+        display: block;
+        margin-top: 10px;
+    }
+}

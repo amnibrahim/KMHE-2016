@@ -1,0 +1,91 @@
+/*==== section one ====*/
+
+.section-one {
+    position: relative;
+    overflow: hidden;
+    background-image: url(../img/icons/cubes.png);
+    background-position: center;
+    background-repeat: repeat;
+}
+.section-one .pendaftaran-box {
+    width: auto;
+    max-width: 200px;
+    padding: 10px 0;
+    margin: 200px auto 0;
+    border: 3px solid rgb(35, 53, 77);
+    border-radius: 3px;
+}
+.section-one .pendaftaran-box .pendaftaran-text {
+    display: block;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600;
+    color: rgb(35, 53, 77);
+    font-family: 'DINMedium', Fallback, sans-serif;
+}
+label {
+    text-align: left!important;
+    padding-left: 0!important;
+}
+.section-one .row {
+    margin: 0 auto;
+    background-image: url(img/icons/cubes.png);
+    background-position: center;
+    background-repeat: repeat;
+    font-size: 12px;
+    font-family: 'DINMedium', Fallback, sans-serif;
+}
+.section-one .row .form-title {
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(35, 53, 77);
+    font-family: 'DINMedium', Fallback, sans-serif;
+}
+.section-one .row .form-title {
+    margin-top: 100px;
+}
+.section-one .row .form-horizontal .form-group {
+    margin: 50px auto;
+}
+.section-one .row .form-horizontal .form-group label {
+    text-align: left!important;
+    padding-left: 15px!important;
+}
+.section-one .row .form-horizontal .form-group input {}
+.section-one button {
+    display: block;
+    margin: 50px auto 100px;
+    width: 100px;
+    box-shadow: 0px 3px 0px 0px green;
+    font-size: 16px;
+    font-family: 'DINMedium', Fallback, sans-serif;
+}
+
+.section-one .agreement {
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    color: rgb(35, 53, 77);
+    margin: 0 10px 30px;
+    font-family: 'DINRegular', Fallback, sans-serif;
+}
+
+.section-one .notes {
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    color: rgb(35, 53, 77);
+    margin: 0 10px 150px;
+    font-family: 'DINRegular', Fallback, sans-serif;
+}
+
+/*=======================*/
+
+@media (max-width: 991px){
+    /*--- navbar ---*/
+    .navbar ul.main-menu li{
+        width: auto;
+    }
+}
